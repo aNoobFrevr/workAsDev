@@ -1,6 +1,4 @@
 //import logo from '../../logo.svg';
-import dayMoon from '../../dayMoon.jpg';
-import nightMoon from '../../nightMoon.jpg'
 import Eagle from '../../eagle2.jpg'
 import './App.css';
 
