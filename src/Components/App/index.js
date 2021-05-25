@@ -1,4 +1,7 @@
-import logo from '../../logo.svg';
+//import logo from '../../logo.svg';
+import dayMoon from '../../dayMoon.jpg';
+import nightMoon from '../../nightMoon.jpg'
+import Eagle from '../../eagle2.jpg'
 import './App.css';
 
 function App() {
@@ -7,23 +10,26 @@ function App() {
       <div className = "header">
         <div className ="appBar">
         <div className = "logo">
-          logo
+          {`</>`}
         </div>
         </div>
         
-        <div className = "Navigation">
+        {/**initialy its only going to be a page */
+          <div className = "Navigation" style={{display:'none'}}>
           Navigation
         </div>
+        }
       </div>
       <div className = "Article" >
         <div className = "firstFold">
-          <div className = "articleHeader">
-            Creating a WebComponent
+         <div className= "headerImage">
+          <img src={Eagle} alt="React Logo" />
           </div>
-         
-          <img src={logo} alt="React Logo" />
-          
+          <h2>
+            Creating a WebComponent
+          </h2> 
         </div>
+
         <div className = "belowFold">
           Below Fold
       </div>
